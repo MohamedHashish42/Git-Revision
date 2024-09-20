@@ -7,8 +7,22 @@
 
 This revision is designed to provide a concise overview of Git, including basic and some advanced concepts, and some of best practices for using Git in real-world scenarios. It is intended for developers, software engineers, and anyone interested in using Git to manage their code and collaborate with others. 
 
+**Revision Content**  
+
+1. [Getting Started](#GettingStarted)
+2. [Git Basics](#Basics)
+3. [Git Branching](#Branching)
+4. [Git on the Server](#GitOnTheServer)
+5. [GitHub](#GitHub)
+6. [Git Tools](#GitTools)
+7. [Customizing Git](#CustomizingGit)
+8. [Some Git best practices](#GitBestPractices)
+9. [Some git comparisons](#GitComparisons)
+10. [Some useful git extensions in VS Code](#GitExtensionsInVSCode)
+11. [References](#References)
+
 ---
-## Section 1: Getting Started 
+## Section 1: Getting Started ?<a id="GettingStarted"></a>
 
 ### Important Definitions
 - **Version control :** a system that records changes to a file or set of files over time, allowing you to recall specific versions later.  
@@ -33,7 +47,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-## Section 2: Git Basics 
+## Section 2: Git Basics <a id="Basics"></a>
 ### Important Definitions
 - **Commit :** a snapshot of the repository at a particular point in time.
 - **SHA-1 :** a cryptographic hash function used by Git to uniquely identify each commit and object in the repository.
@@ -59,7 +73,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-## Section 3: Git Branching
+## Section 3: Git Branching <a id="Branching"></a>
 ### Important Definitions
 - **Branch:** a separate line of development in a Git repository which have a pointer to a specific commit.
 - **Merge:** the process of bringing changes from one branch into another.
@@ -92,7 +106,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-## Section 4: Git on the Server
+## Section 4: Git on the Server <a id="GitOnTheServer"></a>
 ### Important Definitions
 - **SSH :** a secure network protocol used for remote access to servers and repositories.
 - **Git protocol :** a lightweight network protocol used by Git for efficient communication between repositories.
@@ -118,7 +132,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 ---
 
 
-## Section 5: GitHub
+## Section 5: GitHub <a id="GitHub"></a>
 ### Important Points
 - **Fork :** a copy of a repository on GitHub that allows you to make changes without affecting the original repository.
 - **Pull request :** a way to propose changes to a repository on GitHub.
@@ -139,7 +153,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-##  Section 6: Git Tools
+##  Section 6: Git Tools <a id="GitTools"></a>
 ### Important Points
 - Git provides a variety of tools to help with common tasks, including merging, rebasing, and cherry-picking.
 - Git provides a way to view the changes made to a file over time using the `git blame` command.
@@ -167,7 +181,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-##  Section 7: Customizing Git <!-- Chapter 8-->
+##  Section 7: Customizing Git  <a id="CustomizingGit"></a>
 ### Important Points
 - Git can be customized using configuration files and aliases.
 - Git provides a way to create custom Git commands using shell scripts.
@@ -186,7 +200,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-## Some Git best practices
+## Some Git best practices <a id="GitBestPractices"></a>
 
 - **Use descriptive commit messages :** Write clear and concise commit messages that describe the changes you have made.
 
@@ -208,7 +222,8 @@ This revision is designed to provide a concise overview of Git, including basic 
 <br><br>
 
 ---
-## Some git comparisons
+
+## Some git comparisons <a id="GitComparisons"></a>
 
 ### Git VS GitHub
 <table>
@@ -370,7 +385,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 <br>
 
-## git log VS git ref 
+### git log VS git ref 
 <table>
   <tr>
     <th>git log</th>
@@ -414,7 +429,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-## Some useful git extensions in VS Code
+## Some useful git extensions in VS Code  <a id="GitExtensionsInVSCode"></a>
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
@@ -423,7 +438,7 @@ This revision is designed to provide a concise overview of Git, including basic 
 
 ---
 
-## References
+## References <a id="References"></a>
 
 - [Git Pro](https://git-scm.com/book/en/v2)
 - [Chat GPT](https://chat.openai.com/auth/login)
